@@ -1,0 +1,31 @@
+﻿Build started 12/11/2015 9:17:00 PM.
+     1>Project "C:\Users\Steven\Documents\Visual Studio 2013\Projects\NailArt\NailArt\NailArt.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing GLWidget.h...
+         Moc'ing MainWindow.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /I. /I..\qip_win\IP\header /I..\qip_win\MP\header /IC:\Qt5.5.0\5.5\msvc2013_64\include /IC:\Qt5.5.0\5.5\msvc2013_64\include\QtOpenGL /IC:\Qt5.5.0\5.5\msvc2013_64\include\QtWidgets /IC:\Qt5.5.0\5.5\msvc2013_64\include\QtGui /IC:\Qt5.5.0\5.5\msvc2013_64\include\QtANGLE /IC:\Qt5.5.0\5.5\msvc2013_64\include\QtCore /Imoc /I"C:\Qt5.5.0\5.5\msvc2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /MP /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 GLWidget.cpp MainWindow.cpp moc\moc_GLWidget.cpp moc\moc_MainWindow.cpp
+         GLWidget.cpp
+         MainWindow.cpp
+         moc_GLWidget.cpp
+         moc_MainWindow.cpp
+     1>GLWidget.cpp(62): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>GLWidget.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>GLWidget.cpp(254): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>GLWidget.cpp(261): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>GLWidget.cpp(353): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>GLWidget.cpp(415): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>GLWidget.cpp(421): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\NailArt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt5.5.0\5.5\msvc2013_64\lib /LIBPATH:C:/Qt5.5.0/5.5/msvc2013_64/lib /LIBPATH:..\qip_win\IP\lib /LIBPATH:..\qip_win\MP\lib C:\Qt5.5.0\5.5\msvc2013_64\lib\qtmain.lib shell32.lib C:/Qt5.5.0/5.5/msvc2013_64/lib\Qt5Core.lib ..\qip_win\IP\lib\IP.lib ..\qip_win\MP\lib\MP.lib opengl32.lib glu32.lib C:\Qt5.5.0\5.5\msvc2013_64\lib\Qt5OpenGL.lib C:\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Widgets.lib C:\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Gui.lib C:\Qt5.5.0\5.5\msvc2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\NailArt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Release\GLWidget.obj
+         x64\Release\MainWindow.obj
+         x64\Release\change.obj
+         x64\Release\main.obj
+         x64\Release\moc_MainWindow.obj
+         x64\Release\moc_GLWidget.obj
+         NailArt.vcxproj -> C:\Users\Steven\Documents\Visual Studio 2013\Projects\NailArt\NailArt\release\NailArt.exe
+     1>Done Building Project "C:\Users\Steven\Documents\Visual Studio 2013\Projects\NailArt\NailArt\NailArt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.49
